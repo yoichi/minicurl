@@ -8,7 +8,7 @@ def parse_url(url):
     scheme = m.group(1)
     host = None
     path = None
-    return _Url(scheme=scheme, host="example.com", path="/data")
+    return _Url(scheme=scheme, host="example.com", path="/")
 
 if __name__ == '__main__':
     import unittest
